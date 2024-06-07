@@ -1,5 +1,13 @@
 // Import Swiper React components
 import img1 from "../assets/BannerImg/img-3.jpg";
+import img2 from "../assets/BannerImg/img-4.jpg";
+import img3 from "../assets/BannerImg/car-8.png";
+import img4 from "../assets/BannerImg/car-9.png";
+import img5 from "../assets/BannerImg/car-10.png";
+import img6 from "../assets/BannerImg/car-15.png";
+import img7 from "../assets/BannerImg/car-11.png";
+import img8 from "../assets/BannerImg/car-12.png";
+import img9 from "../assets/BannerImg/car-7.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -46,16 +54,39 @@ const Banner = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img className="h-1/4 w-full" src={img1} alt="" />
+          <img className="h-[700px] w-[1600px]" src={img1} alt="" />
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>
+          <img className="h-[700px] w-[1600px]" src={img2} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="h-[700px] w-[1600px]" src={img3} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="h-[700px] w-[1600px]" src={img4} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="h-[700px] w-[1600px]" src={img5} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="h-[700px] w-[1600px]" src={img6} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="h-[700px] w-[1600px]" src={img7} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="h-[700px] w-[1600px]" src={img8} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="h-[700px] w-[1600px]" src={img9} alt="" />
+        </SwiperSlide>
+
+        {/* <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>
         <SwiperSlide>Slide 6</SwiperSlide>
         <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide> */}
+        {/* <SwiperSlide>Slide 9</SwiperSlide> */}
         {/* Uncomment and adjust as necessary */}
         {/* <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>
