@@ -7,6 +7,8 @@ import Category from "../Commponents/Category";
 import Login from "../Pages/Login/Login";
 import Signup from "../Pages/signup/Signup";
 import PrivateRoute from "./PrivateRoute";
+import UpdateProfile from "../Commponents/UpdateProfile";
+import Dashboard from "../Dashboard/Dashboard";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -36,6 +38,14 @@ export const router = createBrowserRouter([
       {
         path: "/signup",
         element: <Signup></Signup>,
+      },
+      {
+        path: "/updateprofile",
+        element: <UpdateProfile></UpdateProfile>,
+      },
+      {
+        path: "/dashboard",
+        element: <Dashboard></Dashboard>,
       },
     ],
   },

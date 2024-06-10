@@ -1,6 +1,6 @@
 const Product = () => {
   return (
-    <div>
+    <div className="">
       <h1>Rakib</h1>
     </div>
   );
